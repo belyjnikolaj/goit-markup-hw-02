@@ -15,12 +15,8 @@
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
 }
-ul {
+.list {
     list-style: none; 
-}
-a {
-    text-decoration: none;
-    font-style: normal;
 }
 .page-header {
     color: var(--primary-text-color);
@@ -32,6 +28,7 @@ a {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .logo-firstname {
     color: var(--accent-color);
@@ -46,6 +43,7 @@ a {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -55,15 +53,17 @@ a {
     color: var(--accent-color);
 }
 /* contact */
-.contact a {
+.contact-item {
     color: var(--title-text-color);
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
-.contact a:hover,
-.contact a:focus {
+.contact-item:hover,
+.contact-item:focus {
     color: var(--accent-color);
 }
 .hero {
@@ -159,18 +159,23 @@ a {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .location {
     color: var(--accent-text-color);
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .footer-contact {
     color: var(--footer-contact-color);
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .location:hover,
 .location:focus {
@@ -207,4 +212,7 @@ a {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
+}
+.project-item {
+    text-decoration: none;
 }
